@@ -5,18 +5,22 @@ html {
 
 h1 {
   text-align: center;
-  background-image:url();
+  background-image:url(https://www.americanmeadows.com/media/catalog/category/subcat-banner-watermelon.jpg);
+  color: black;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: cursive;
 }
 
 .pics {
-  justify-content: center;
+  align-content: center;
 }
 
 .pic-grid {
   display: grid;
   grid-template: repeat(3, 100px) / repeat(3, 100px);
   grid-gap: 10px;
-
+  justify-content: center;
 }
 
 .types {
@@ -24,5 +28,5 @@ h1 {
 }
 
 footer {
-  
+
 }
