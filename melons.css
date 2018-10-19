@@ -1,0 +1,28 @@
+html {
+  background: rgb(226, 235, 223);
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  background-image:url();
+}
+
+.pics {
+  justify-content: center;
+}
+
+.pic-grid {
+  display: grid;
+  grid-template: repeat(3, 100px) / repeat(3, 100px);
+  grid-gap: 10px;
+
+}
+
+.types {
+
+}
+
+footer {
+  
+}
