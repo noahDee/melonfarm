@@ -27,15 +27,20 @@ h1 {
 
 .pic-grid div {
   justify-content: center;
-  padding: 10px;
-}
-
-img {
-  height: 180px;
-  width: 180px;
+  /* padding: 5px; */
   border-style: solid;
   border-width: 5px;
   border-color: black;
+  background-image: url(http://www.bellybytes.com/food/images/allsweet-watermelon.jpg);
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+
+}
+
+img {
+  height: 190px;
+  width: 190px;
+  transition: height 3s, width 3s;
 }
 
 h2 {
@@ -53,4 +58,9 @@ ul {
 
 footer {
   text-align: center;
+}
+
+.pic-grid div img:active {
+  height: 0;
+  width: 0;
 }
