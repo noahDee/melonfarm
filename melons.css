@@ -38,6 +38,10 @@ img {
   border-color: black;
 }
 
+h2 {
+  text-align: center;
+}
+
 ul {
   font-weight: bold;
   text-align: center;
